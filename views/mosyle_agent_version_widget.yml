@@ -1,0 +1,9 @@
+type: scrollbox
+widget_id: mosyle-agent_version-widget
+api_url: /module/mosyle/get_scroll_widget/mosyle_mdm_agent_app
+i18n_title: mosyle.mosyle_mdm_agent_app
+icon: fa-user-secret
+listing_link: /show/listing/mosyle/mosyle
+search_key: mosyle_mdm_agent_app
+badge: count
+i18n_empty_result: no_data

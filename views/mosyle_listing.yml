@@ -1,0 +1,132 @@
+i18n_title: mosyle.report
+not_null_column: mosyle_timestamp
+js_link: module/mosyle/js/mosyle
+table:
+    -
+        column: machine.computer_name
+        i18n_header: listing.computername
+        formatter: clientDetail
+        tab_link: mosyle-tab
+    -
+        column: reportdata.serial_number
+        i18n_header: serial
+    -
+        column: mosyle.open_direct_device_link
+        i18n_header: mosyle.open_direct_device_link
+        formatter: format_mosyle_direct_device_link
+    -
+        column: mosyle.status
+        i18n_header: mosyle.status
+    -
+        column: mosyle.tags
+        i18n_header: mosyle.tags
+    -
+        column: mosyle.device_attestation_status
+        i18n_header: mosyle.device_attestation_status
+    -
+        column: mosyle.current_console_managed_user
+        i18n_header: mosyle.current_console_managed_user
+    -
+        column: mosyle.assigned_user_email
+        i18n_header: mosyle.assigned_user_email
+    -
+        column: mosyle.assigned_user_id
+        i18n_header: mosyle.assigned_user_id
+    -
+        column: mosyle.assigned_username
+        i18n_header: mosyle.assigned_username
+    -
+        column: mosyle.assigned_usertype
+        i18n_header: mosyle.assigned_usertype
+    -
+        column: mosyle.last_login
+        i18n_header: mosyle.last_login
+        formatter: timestampToMoment
+    -
+        column: mosyle.org_name
+        i18n_header: mosyle.org_name
+    -
+        column: mosyle.enrollment_type
+        i18n_header: mosyle.enrollment_type
+    -
+        column: mosyle.last_enroll
+        i18n_header: mosyle.last_enroll
+        formatter: timestampToMoment
+    -
+        column: mosyle.enrolled_via_dep
+        i18n_header: mosyle.enrolled_via_dep
+        formatter: format_mosyle_yes_no_rev
+    -
+        column: mosyle.is_user_enrollment
+        i18n_header: mosyle.is_user_enrollment
+        formatter: format_mosyle_yes_no_rev
+    -
+        column: mosyle.user_approved_enrollment
+        i18n_header: mosyle.user_approved_enrollment
+        formatter: format_mosyle_yes_no_rev
+    -
+        column: mosyle.is_supervised
+        i18n_header: mosyle.is_supervised
+        formatter: format_mosyle_yes_no_rev
+    -
+        column: mosyle.is_activation_lock_manageable
+        i18n_header: mosyle.is_activation_lock_manageable
+        formatter: format_mosyle_yes_no_rev
+    -
+        column: mosyle.is_deleted
+        i18n_header: mosyle.is_deleted
+        formatter: format_mosyle_yes_no
+    -
+        column: mosyle.last_beat
+        i18n_header: mosyle.last_beat
+        formatter: timestampToMoment
+    -
+        column: mosyle.last_check_in
+        i18n_header: mosyle.last_check_in
+        formatter: timestampToMoment
+    -
+        column: mosyle.last_info
+        i18n_header: mosyle.last_info
+        formatter: timestampToMoment
+    -
+        column: mosyle.last_profiles_info
+        i18n_header: mosyle.last_profiles_info
+        formatter: timestampToMoment
+    -
+        column: mosyle.last_app_info
+        i18n_header: mosyle.last_app_info
+        formatter: timestampToMoment
+    -
+        column: mosyle.mosyle_mdm_agent_app
+        i18n_header: mosyle.mosyle_mdm_agent_app
+    -
+        column: mosyle.mosyle_security_app
+        i18n_header: mosyle.mosyle_security_app
+    -
+        column: mosyle.device_is_invalid
+        i18n_header: mosyle.device_is_invalid
+        formatter: format_mosyle_yes_no
+    -
+        column: mosyle.device_info_success_date
+        i18n_header: mosyle.device_info_success_date
+        formatter: timestampToMoment
+    -
+        column: mosyle.mac_commands_success_date
+        i18n_header: mosyle.mac_commands_success_date
+        formatter: timestampToMoment
+    -
+        column: mosyle.mac_commands_reply_results_success_date
+        i18n_header: mosyle.mac_commands_reply_results_success_date
+        formatter: timestampToMoment
+    -
+        column: mosyle.last_device_token_date
+        i18n_header: mosyle.last_device_token_date
+        formatter: timestampToMoment
+    -
+        column: mosyle.last_remote_notification_date
+        i18n_header: mosyle.last_remote_notification_date
+        formatter: timestampToMoment
+    -
+        column: mosyle.mosyle_timestamp
+        i18n_header: mosyle.mosyle_timestamp
+        formatter: timestampToMoment

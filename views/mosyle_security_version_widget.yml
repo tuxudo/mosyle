@@ -1,0 +1,9 @@
+type: scrollbox
+widget_id: mosyle-security_app-widget
+api_url: /module/mosyle/get_scroll_widget/mosyle_security_app
+i18n_title: mosyle.mosyle_security_app
+icon: fa-shield
+listing_link: /show/listing/mosyle/mosyle
+search_key: mosyle_security_app
+badge: count
+i18n_empty_result: no_data

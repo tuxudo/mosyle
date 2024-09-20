@@ -1,0 +1,11 @@
+row1:
+  mosyle_agent_version:
+  mosyle_security_version:
+  mosyle_organization_name:
+row2:
+  mosyle_enrollment_type:
+  mosyle_last_beat:
+  mosyle_last_info:
+row3:
+  mosyle_last_agent_info:
+  mosyle_last_agent_command:

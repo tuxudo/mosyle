@@ -1,0 +1,17 @@
+type: button
+widget_id: mosyle-device_info_success_date-widget
+api_url: /module/mosyle/get_last_date_widget/device_info_success_date
+i18n_title: mosyle.widget_device_info_success_date
+icon: fa-newspaper-o
+listing_link: /show/listing/mosyle/mosyle
+i18n_empty_result: no_data
+buttons:
+  - label: red
+    i18n_label: mosyle.month
+    class: btn-danger
+  - label: yellow
+    i18n_label: mosyle.week
+    class: btn-warning
+  - label: green
+    i18n_label: mosyle.today
+    class: btn-success

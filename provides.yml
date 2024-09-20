@@ -1,0 +1,33 @@
+admin_pages:
+    admin:
+        view: mosyle_admin
+        i18n: mosyle.title
+client_tabs:
+    mosyle-tab:
+        view: mosyle_tab
+        i18n: mosyle.title
+listings:
+    mosyle:
+        view: mosyle_listing
+        i18n: mosyle.title
+reports:
+    mosyle:
+        view: mosyle_report
+        i18n: mosyle.report
+widgets:
+    mosyle_last_beat:
+        view: mosyle_last_beat_widget
+    mosyle_agent_version:
+        view: mosyle_agent_version_widget
+    mosyle_enrollment_type:
+        view: mosyle_enrollment_type_widget
+    mosyle_organization_name:
+        view: mosyle_organization_name_widget
+    mosyle_security_version:
+        view: mosyle_security_version_widget
+    mosyle_last_info:
+        view: mosyle_last_info_widget
+    mosyle_last_agent_info:
+        view: mosyle_last_agent_info_widget
+    mosyle_last_agent_command:
+        view: mosyle_last_agent_command_widget

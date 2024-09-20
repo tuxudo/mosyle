@@ -1,0 +1,9 @@
+type: scrollbox
+widget_id: mosyle-enrollment_type-widget
+api_url: /module/mosyle/get_scroll_widget/enrollment_type
+i18n_title: mosyle.widget_enrollment_type
+icon: fa-graduation-cap
+listing_link: /show/listing/mosyle/mosyle
+search_key: enrollment_type
+badge: count
+i18n_empty_result: no_data

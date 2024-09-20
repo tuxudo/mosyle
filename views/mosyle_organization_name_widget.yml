@@ -1,0 +1,9 @@
+type: scrollbox
+widget_id: mosyle-org_name-widget
+api_url: /module/mosyle/get_scroll_widget/org_name
+i18n_title: mosyle.widget_org_name
+icon: fa-building-o
+listing_link: /show/listing/mosyle/mosyle
+search_key: org_name
+badge: count
+i18n_empty_result: no_data
