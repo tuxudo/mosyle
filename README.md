@@ -21,7 +21,7 @@ MOSYLE_API_KEY=""
 MOSYLE_ADDRESS="https://businessapi.mosyle.com/"
 ```
 
-The Mosyle API key requires only one permission: GET on Device.
+The Mosyle API key requires only one permission: `GET` on `Device`, in addition to the standard `API Integration` needing `View` and `Create`.
 
 This module was developed and tested with Mosyle Business. It will likely work with Mosyle School, but you will need to change the `MOSYLE_ADDRESS` config option for the Mosyle School URL. It is unknown if this module will work with multi-tenant Mosyle instances. 
 
