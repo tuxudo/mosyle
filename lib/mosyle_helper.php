@@ -42,8 +42,6 @@ class Mosyle_helper
 
         $mosyle_computer_result = curl_exec($ch);
 
-        curl_close($ch);
-
         // Check for timeout
         if (curl_errno($ch) && curl_errno($ch) == 28) {
             error_log("MunkiReport:- Mosyle server timed out for - ".$serial_number, 0);
@@ -168,7 +166,6 @@ class Mosyle_helper
         curl_setopt($ch, CURLOPT_HEADER, true);
         curl_setopt($ch, CURLOPT_POST, 1);
         $response = curl_exec($ch);
-        curl_close($ch);
 
         $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
         $header = substr($response, 0, $header_size);
