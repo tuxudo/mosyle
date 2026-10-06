@@ -39,7 +39,7 @@ class mosyle_controller extends Module_controller
     public function get_last_date_widget($column)
     {
         // Remove non-column name characters
-        $column = preg_replace("/[^A-Za-z0-9_\-]]/", '', $column);
+        $column = preg_replace("/[^A-Za-z0-9_\-]/", '', $column);
 
         $currentdate = date_timestamp_get(date_create());
         $week = $currentdate - 604800;
@@ -70,7 +70,7 @@ class mosyle_controller extends Module_controller
     public function get_scroll_widget($column)
     {
         // Remove non-column name characters
-        $column = preg_replace("/[^A-Za-z0-9_\-]]/", '', $column);
+        $column = preg_replace("/[^A-Za-z0-9_\-]/", '', $column);
 
         $sql = "SELECT COUNT(CASE WHEN ".$column." <> '' AND ".$column." IS NOT NULL THEN 1 END) AS count, ".$column."
                 FROM mosyle
@@ -151,7 +151,7 @@ class mosyle_controller extends Module_controller
     public function get_data($serial_number = '')
     {
         // Remove non-serial number characters
-        $serial_number = preg_replace("/[^A-Za-z0-9_\-]]/", '', $serial_number);
+        $serial_number = preg_replace("/[^A-Za-z0-9_\-]/", '', $serial_number);
 
         $obj = new View();
 
